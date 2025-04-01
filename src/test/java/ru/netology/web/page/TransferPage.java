@@ -32,6 +32,6 @@ public class TransferPage {
         transferButton.click();
     }
     public void findErrorMessage(String expectedText) {
-        errorMessage.shouldBe(Condition.text(expectedText), Duration.ofSeconds(15).shouldBe(visible));
+        errorMessage.shouldHave(Condition.text(expectedText), Duration.ofSeconds(15));
     }
 }
