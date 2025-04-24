@@ -22,7 +22,7 @@ public class DataHelper {
         return Math.abs(balance) / 10;
     }
     public static int generateInvalidAmount(int balance) {
-        return Math.abs(balance) / + 1;
+        return Math.abs(balance) + 1;
     }
     @Value
     public static class VerificationCode {
